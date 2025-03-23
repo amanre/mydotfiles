@@ -104,7 +104,7 @@ PKGS=(
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 xfce-theme-manager
 #pamac-aur
-grub-customizer
+#grub-customizer
 multicolor-sddm-theme
 catppuccin-icons
 conky-lua-archers
@@ -119,7 +119,7 @@ tela-icons
 #yay-git
 arandr
 xrandr
-grub-themes
+#grub-themes
 catppuccin-gtk-theme-mocha
 catppuccin-gtk-theme-macchiato
 catppuccin-gtk-theme-frappe
@@ -206,8 +206,8 @@ telegram-desktop
 skypeforlinux-stable-bin
 
 # Kernels ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-linux-zen
-linux-zen-headers
+#linux-zen
+#linux-zen-headers
 
 # Nvidia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  #nvidia-dkms
@@ -225,7 +225,7 @@ system-config-printer
 #samsung-unified-driver-common
 #samsung-unified-driver-printer
 #samsung-unified-driver-scanner
-#canon-pixma-ts5055-complete
+canon-pixma-ts5055-complete
 # Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 simplescreenrecorder
 obs
@@ -272,19 +272,15 @@ arcolinux-kvantum-git
 libreoffice-fresh
 
 # Themes
-andrea-xfce-theme
 emilia-xfce-theme
 default-xfce-theme
-dawn-xfce-theme
-citylights-xfce-theme
-red-moon-xfce-theme
 space-nebula-theme
-phoenix-xfce-theme
-maya-xfce-theme
-marta-xfce-theme
-karla-xfce-theme
 les-paul-xfce-theme
-
+grandcanion-xfce-theme
+pinkfloyed-xfce-theme
+sunset-drive-xfce-theme
+sunset-lookout-xfce-theme
+cutecat-xfce-theme
 )
 
 for PKG in "${PKGS[@]}"; do

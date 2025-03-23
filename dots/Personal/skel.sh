@@ -29,7 +29,7 @@ echo "################################################################"
 echo;tput sgr0
 #sudo pacman -S archlinux-appstream-data --noconfirm
 #cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
-cp   -arf /etc/skel /. ~
+cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -rf /etc/skel/* ~'
 
 
 tput setaf 2

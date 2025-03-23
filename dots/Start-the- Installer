@@ -54,7 +54,7 @@ sh remove-software.sh*
 sh install-custom-xfce*
 sh install-bspwm*
 sh install-rofi*
-sh install-xenlism-grub-arch-1080p.sh*
+#sh install-xenlism-grub-arch-1080p.sh*
 sh software-AUR-repo*
 sh mpd-ncmpcpp*
 sh zram.sh*
@@ -88,7 +88,7 @@ sh display-manager.sh*
 #sh delete-all-desktop-themes.sh*
 #sh install-all-desktop-themes.sh*
 #sh snapper-btrfs-setup*
-sh timeshift-btrfs-setup*
+#sh timeshift-btrfs-setup*
 sh 13-install-all-fonts-needed-for-conkys*
 sh refresh_conky.sh*
 #sh 14-dep-calamares*
