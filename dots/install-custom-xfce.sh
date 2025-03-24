@@ -222,9 +222,9 @@ gutenprint
 gtk3-print-backends
 libcups
 system-config-printer
-#samsung-unified-driver-common
-#samsung-unified-driver-printer
-#samsung-unified-driver-scanner
+samsung-unified-driver-common
+samsung-unified-driver-printer
+samsung-unified-driver-scanner
 canon-pixma-ts5055-complete
 # Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 simplescreenrecorder
@@ -273,6 +273,7 @@ libreoffice-fresh
 
 # Themes
 emilia-xfce-theme
+expanse-xfce-theme
 default-xfce-theme
 space-nebula-theme
 les-paul-xfce-theme
