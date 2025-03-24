@@ -88,7 +88,7 @@ sh display-manager.sh*
 #sh delete-all-desktop-themes.sh*
 #sh install-all-desktop-themes.sh*
 #sh snapper-btrfs-setup*
-#sh timeshift-btrfs-setup*
+sh timeshift-btrfs-setup*
 sh 13-install-all-fonts-needed-for-conkys*
 sh refresh_conky.sh*
 #sh 14-dep-calamares*
@@ -96,7 +96,7 @@ sh refresh_conky.sh*
 sudo chsh $USER -s /bin/zsh
 # Final skel
 sh skel*
-sh wal.sh*
+#sh wal.sh*
 
 echo "
 #=================================
