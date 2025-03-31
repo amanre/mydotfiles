@@ -276,12 +276,15 @@ emilia-xfce-theme
 expanse-xfce-theme
 default-xfce-theme
 space-nebula-theme
+spectre-xfce-theme
 les-paul-xfce-theme
 grandcanion-xfce-theme
 pinkfloyed-xfce-theme
 sunset-drive-xfce-theme
 sunset-lookout-xfce-theme
 cutecat-xfce-theme
+marta-xfce-theme
+mountainsunset-xfce-theme
 )
 
 for PKG in "${PKGS[@]}"; do
