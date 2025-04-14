@@ -105,11 +105,12 @@ PKGS=(
 xfce-theme-manager
 #pamac-aur
 #grub-customizer
-multicolor-sddm-theme
+#multicolor-sddm-theme
 catppuccin-icons
 conky-lua-archers
 pywal-conky-git
 python-pywal
+yad
 dracular-icons
 win11-icons-git
 root-git
@@ -133,7 +134,7 @@ gtk-themes-git
 icon-themes-git
 archlinux-logout-git
 #archlinux-tweak-tool-git
-#archlinux-logout-themes-git
+archlinux-logout-themes-git
 betterlockscreen
 ttf-bitstream-vera
 ttf-dejavu
@@ -201,9 +202,9 @@ gh0stzk-icons-gruvbox-plus-dark
 
 
 # Internet ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-discord
-telegram-desktop
-skypeforlinux-stable-bin
+#discord
+#telegram-desktop
+#skypeforlinux-stable-bin
 
 # Kernels ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #linux-zen
