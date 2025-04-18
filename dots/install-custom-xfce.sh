@@ -106,6 +106,8 @@ xfce-theme-manager
 #pamac-aur
 #grub-customizer
 #multicolor-sddm-theme
+blueberry
+thumbler
 catppuccin-icons
 conky-lua-archers
 pywal-conky-git
