@@ -51,9 +51,16 @@ echo
 sleep 2
 #sh get-the-keys-and-repos.sh*
 sh remove-software.sh*
+<<<<<<< HEAD
 sh install-custom-xfce*
 sh install-bspwm*
 sh install-rofi*
+=======
+sh install-custom-xfce.sh*
+sh install-bspwm.sh*
+sh install-bluetooth.sh*
+sh install-rofi.sh*
+>>>>>>> 676a4e9b56972e476fa5be4e8ac8db6502b93bba
 sh install-xenlism-grub-arch-1080p.sh*
 sh software-AUR-repo*
 sh mpd-ncmpcpp*

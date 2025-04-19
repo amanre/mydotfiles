@@ -98,7 +98,40 @@ if grep -q "Arch Linux" /etc/os-release; then
     sudo pacman -Rs xf86-video-vesa --noconfirm
     sudo pacman -Rs arcolinux-root-git --noconfirm
     sudo pacman -Rs arcolinux-xfce-git --noconfirm
+<<<<<<< HEAD
+    sudo pacman -Rs arcolinux-panel-profiles-git --noconfirm
+    sudo pacman -Rs vivaldi --noconfirm
+    sudo pacman -Rs vivaldi-ffmpeg-codecs --noconfirm
+    sudo pacman -Rs vivaldi-widevine --noconfirm
+    sudo pacman -Rs arcolinux-bin-git --noconfirm
+    sudo pacman -Rs arcolinux-alacritty-git --noconfirm
+    sudo pacman -Rs arcolinux-conky-collection-git --noconfirm
+    sudo pacman -Rs arcolinux-gtk3-sardi-arc-git --noconfirm
+    sudo pacman -Rs arcolinux-plank-git --noconfirm
+    sudo pacman -Rs arcolinux-plank-themes-git --noconfirm
+    sudo pacman -Rs arcolinux-qt5-git --noconfirm
+    sudo pacman -Rs arcolinux-termite-themes-git --noconfirm
+    sudo pacman -Rs arcolinux-variety-git --noconfirm
+    sudo pacman -Rs arcolinux-variety-autostart-git --noconfirm
+    sudo pacman -Rs variety --noconfirm
+    sudo pacman -Rs arcolinux-wallpapers-git --noconfirm
+    sudo pacman -Rs arcolinux-xfce-panel-profiles-git --noconfirm
+    sudo pacman -Rs arcolinux-zsh-git --noconfirm
+    sudo pacman -Rs arcolinux-config-all-desktops-git --noconfirm
+    sudo pacman -Rs arcolinux-dconf-all-desktops-git --noconfirm
+    sudo pacman -Rs arcolinux-wallpapers-git
+    sudo pacman -Rs arcolinux-neofetch-git --noconfirm
+    sudo pacman -Rs arcolinux-bin-git --noconfirm
+    sudo pacman -Rs arcolinux-hyfetch-git --noconfirm
+    sudo pacman -Rs chromium --noconfirm
+    sudo pacman -Rs arcolinux-geany-git --noconfirm
+    sudo pacman -Rs urxvt-fullscreen --noconfirm
+    sudo pacman -Rs urxvt-perls --noconfirm
+    sudo pacman -Rs urxvt-perls --noconfirm
+    sudo pacman -Rs urxvt-resize-font-git --noconfirm
+=======
     
+>>>>>>> 8fc0a66c7658955c1984ebda87f1470580cf2975
      #sudo pacman -Rs sardi-icons --noconfirm
     sudo pacman -Rs xf86-video-amdgpu --noconfirm
     sudo pacman -Rs xf86-video-fbdev --noconfirm
@@ -123,11 +156,11 @@ if grep -q "Arch Linux" /etc/os-release; then
     sudo pacman -Rs alg-fastfetch-config --noconfirm
     sudo pacman -Rs grml-zsh-config --noconfirm
 
-installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
-cd $installed_dir/Personal/settings/arco/
+#installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
+#cd $installed_dir/Personal/settings/arco/
 
-sudo cp -Rf  xfce4-panel.xml   /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
-sudo cp -Rf  xfce4-desktop.xml   /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
+#sudo cp -Rf  xfce4-panel.xml   /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
+#sudo cp -Rf  xfce4-desktop.xml   /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
 	    
   echo
   tput setaf 2
