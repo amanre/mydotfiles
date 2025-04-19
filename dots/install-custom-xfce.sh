@@ -104,7 +104,7 @@ PKGS=(
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 xfce-theme-manager
 #pamac-aur
-#grub-customizer
+grub-customizer
 #multicolor-sddm-theme
 catppuccin-icons
 conky-lua-archers
@@ -207,13 +207,13 @@ gh0stzk-icons-gruvbox-plus-dark
 #skypeforlinux-stable-bin
 
 # Kernels ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#linux-zen
-#linux-zen-headers
+linux-zen
+linux-zen-headers
 
 # Nvidia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- #nvidia-dkms
- #lib32-nvidia
- #nvidia-settings
+ nvidia-dkms
+ lib32-nvidia
+ nvidia-settings
 
 # Printer related +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 cups
