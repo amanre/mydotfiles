@@ -156,11 +156,11 @@ if grep -q "Arch Linux" /etc/os-release; then
     sudo pacman -Rs alg-fastfetch-config --noconfirm
     sudo pacman -Rs grml-zsh-config --noconfirm
 
-installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
-cd $installed_dir/Personal/settings/arco/
+#installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
+#cd $installed_dir/Personal/settings/arco/
 
-sudo cp -Rf  xfce4-panel.xml   /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
-sudo cp -Rf  xfce4-desktop.xml   /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
+#sudo cp -Rf  xfce4-panel.xml   /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
+#sudo cp -Rf  xfce4-desktop.xml   /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
 	    
   echo
   tput setaf 2
