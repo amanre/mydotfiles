@@ -183,27 +183,27 @@ gh0stzk-icons-gruvbox-plus-dark
 
 # Gaming Related ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-#proton-ge-custom-bin
-#protonup-git
-#proton-community-updater
-#steam
-#steam-fonts
-#steam-tweaks
-#steam-native-runtime
-#goverlay-bin
-#bottles
-#gamemode
-#lib32-gamemode
-#lutris
-#wine-staging
-#winetricks
-#playonlinux
+proton-ge-custom-bin
+protonup-git
+proton-community-updater
+steam
+steam-fonts
+steam-tweaks
+steam-native-runtime
+goverlay-bin
+bottles
+gamemode
+lib32-gamemode
+lutris
+wine-staging
+winetricks
+playonlinux
 
 
 # Internet ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-discord
-telegram-desktop
-skypeforlinux-stable-bin
+#discord
+#telegram-desktop
+#skypeforlinux-stable-bin
 
 # Kernels ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #linux-zen
@@ -276,12 +276,15 @@ emilia-xfce-theme
 expanse-xfce-theme
 default-xfce-theme
 space-nebula-theme
+spectre-xfce-theme
 les-paul-xfce-theme
 grandcanion-xfce-theme
 pinkfloyed-xfce-theme
 sunset-drive-xfce-theme
 sunset-lookout-xfce-theme
 cutecat-xfce-theme
+marta-xfce-theme
+mountainsunset-xfce-theme
 )
 
 for PKG in "${PKGS[@]}"; do
