@@ -88,9 +88,7 @@ echo "
 read dock
 case $dock in
 1)
-sudo pacman -S --noconfirm plank plank-themes-git  custom-xfce4;; 
-2)
-sudo pacman -S --noconfirm  custom-xfce-without-dock;;
+sudo pacman -S --noconfirm plank plank-themes-git ;; 
 
   
 *)
@@ -104,13 +102,18 @@ PKGS=(
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 xfce-theme-manager
 #pamac-aur
-#grub-customizer
-multicolor-sddm-theme
+grub-customizer
+#multicolor-sddm-theme
+#blueberry
+thumbler
 catppuccin-icons
 conky-lua-archers
 pywal-conky-git
 python-pywal
+yad
 dracular-icons
+brave-bin
+firefox
 win11-icons-git
 root-git
 tokyonight-icons
@@ -149,12 +152,13 @@ gsfonts
 sublime-text-4
 geany
 geany-plugins
-visual-studio-code-bin
-spotify
-spotify-adblock-git
-spotrec
+#visual-studio-code-bin
+#spotify
+#spotify-adblock-git
+#spotrec
 pragha
 mpv
+meld
 soundconverter
 file-roller
 font-manager
@@ -206,13 +210,13 @@ playonlinux
 #skypeforlinux-stable-bin
 
 # Kernels ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#linux-zen
-#linux-zen-headers
+linux-zen
+linux-zen-headers
 
 # Nvidia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- #nvidia-dkms
- #lib32-nvidia
- #nvidia-settings
+ nvidia-dkms
+ lib32-nvidia
+ nvidia-settings
 
 # Printer related +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 cups
@@ -222,9 +226,9 @@ gutenprint
 gtk3-print-backends
 libcups
 system-config-printer
-samsung-unified-driver-common
-samsung-unified-driver-printer
-samsung-unified-driver-scanner
+#samsung-unified-driver-common
+#samsung-unified-driver-printer
+#samsung-unified-driver-scanner
 canon-pixma-ts5055-complete
 # Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 simplescreenrecorder
@@ -246,7 +250,7 @@ dunst
 feh
 gnome-disk-utility
 htop
-imagewriter
+#imagewriter
 mintstick-git
 neofetch
 qbittorrent
