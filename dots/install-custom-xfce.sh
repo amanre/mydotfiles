@@ -187,21 +187,21 @@ gh0stzk-icons-gruvbox-plus-dark
 
 # Gaming Related ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-proton-ge-custom-bin
-protonup-git
-proton-community-updater
-steam
-steam-fonts
-steam-tweaks
-steam-native-runtime
-goverlay-bin
-bottles
-gamemode
-lib32-gamemode
-lutris
-wine-staging
-winetricks
-playonlinux
+#proton-ge-custom-bin
+#protonup-git
+#proton-community-updater
+#steam
+#steam-fonts
+#steam-tweaks
+#steam-native-runtime
+#goverlay-bin
+#bottles
+#gamemode
+#lib32-gamemode
+#lutris
+#wine-staging
+#winetricks
+#playonlinux
 
 
 # Internet ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -226,9 +226,9 @@ gutenprint
 gtk3-print-backends
 libcups
 system-config-printer
-samsung-unified-driver-common
-samsung-unified-driver-printer
-samsung-unified-driver-scanner
+#samsung-unified-driver-common
+#samsung-unified-driver-printer
+#samsung-unified-driver-scanner
 canon-pixma-ts5055-complete
 # Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 simplescreenrecorder
