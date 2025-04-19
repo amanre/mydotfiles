@@ -83,7 +83,7 @@ fi
 
 # when on ARCOLINUX - remove conflicting files
 
-if grep -q "ArcoLinux" /etc/os-release; then
+if grep -q "Arch Linux" /etc/os-release; then
   echo
   tput setaf 2
   echo "######################################################"
@@ -120,6 +120,7 @@ if grep -q "ArcoLinux" /etc/os-release; then
     sudo pacman -Rs arcolinux-dconf-all-desktops-git --noconfirm
     sudo pacman -Rs arcolinux-wallpapers-git
     sudo pacman -Rs arcolinux-neofetch-git --noconfirm
+    sudo pacman -Rs arcolinux-bin-git --noconfirm
     sudo pacman -Rs arcolinux-hyfetch-git --noconfirm
     sudo pacman -Rs chromium --noconfirm
     sudo pacman -Rs arcolinux-geany-git --noconfirm

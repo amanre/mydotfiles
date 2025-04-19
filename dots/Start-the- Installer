@@ -49,12 +49,13 @@ echo "################################################################"
 tput sgr0
 echo
 sleep 2
-sh get-the-keys-and-repos.sh*
+#sh get-the-keys-and-repos.sh*
 sh remove-software.sh*
 sh install-custom-xfce*
 sh install-bspwm*
+sh install-bluetooth*
 sh install-rofi*
-#sh install-xenlism-grub-arch-1080p.sh*
+sh install-xenlism-grub-arch-1080p.sh*
 sh software-AUR-repo*
 sh mpd-ncmpcpp*
 sh zram.sh*
