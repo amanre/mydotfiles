@@ -88,9 +88,9 @@ echo "
 read dock
 case $dock in
 1)
-sudo pacman -S --noconfirm plank plank-themes-git  custom-xfce4;; 
+sudo pacman -S --noconfirm plank plank-themes-git ;; 
 2)
-sudo pacman -S --noconfirm  custom-xfce4;;
+do nothing;;
 
   
 *)
@@ -152,10 +152,10 @@ gsfonts
 sublime-text-4
 geany
 geany-plugins
-visual-studio-code-bin
-spotify
-spotify-adblock-git
-spotrec
+#visual-studio-code-bin
+#spotify
+#spotify-adblock-git
+#spotrec
 pragha
 mpv
 meld
@@ -250,7 +250,7 @@ dunst
 feh
 gnome-disk-utility
 htop
-imagewriter
+#imagewriter
 mintstick-git
 neofetch
 qbittorrent
