@@ -90,7 +90,7 @@ case $dock in
 1)
 sudo pacman -S --noconfirm plank plank-themes-git  custom-xfce4;; 
 2)
-sudo pacman -S --noconfirm  ar-xfce4;;
+sudo pacman -S --noconfirm  custom-xfce4;;
 
   
 *)
@@ -136,7 +136,7 @@ gtk-themes-git
 icon-themes-git
 archlinux-logout-git
 #archlinux-tweak-tool-git
-archlinux-logout-themes-git
+#archlinux-logout-themes-git
 betterlockscreen
 ttf-bitstream-vera
 ttf-dejavu
