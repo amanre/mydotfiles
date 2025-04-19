@@ -81,7 +81,7 @@ fi
 
 
 
-# when on ARCOLINUX - remove conflicting files
+# when on ALG - remove conflicting files
 
 if grep -q "Arch Linux" /etc/os-release; then
   echo
@@ -98,6 +98,7 @@ if grep -q "Arch Linux" /etc/os-release; then
     sudo pacman -Rs xf86-video-vesa --noconfirm
     sudo pacman -Rs arcolinux-root-git --noconfirm
     sudo pacman -Rs arcolinux-xfce-git --noconfirm
+<<<<<<< HEAD
     sudo pacman -Rs arcolinux-panel-profiles-git --noconfirm
     sudo pacman -Rs vivaldi --noconfirm
     sudo pacman -Rs vivaldi-ffmpeg-codecs --noconfirm
@@ -128,6 +129,9 @@ if grep -q "Arch Linux" /etc/os-release; then
     sudo pacman -Rs urxvt-perls --noconfirm
     sudo pacman -Rs urxvt-perls --noconfirm
     sudo pacman -Rs urxvt-resize-font-git --noconfirm
+=======
+    
+>>>>>>> 8fc0a66c7658955c1984ebda87f1470580cf2975
      #sudo pacman -Rs sardi-icons --noconfirm
     sudo pacman -Rs xf86-video-amdgpu --noconfirm
     sudo pacman -Rs xf86-video-fbdev --noconfirm
@@ -140,9 +144,18 @@ if grep -q "Arch Linux" /etc/os-release; then
     sudo pacman -Rs arcolinux-xfce-prime-git --noconfirm
     sudo pacman -Rs rxvt-unicode-terminfo --noconfirm
     sudo pacman -Rs arconet-xfce --noconfirm
-    sudo pacman -Rs arcolinux-gtk-surfn-arc-git --noconfirm
-    sudo pacman -Rs arc-gtk-theme --noconfirm
-  
+    sudo pacman -Rs Tela-circle --noconfirm
+    sudo pacman -Rs Tela-circle-dark --noconfirm
+    sudo pacman -Rs alg-xfce-settings --noconfirm
+    sudo pacman -Rs tela-circle-icon --noconfirm
+    sudo pacman -Rs alg xfce4 --noconfirm
+    sudo pacman -Rs alg-app-store --noconfirm
+    sudo pacman -Rs alg-welcome --noconfirm
+    sudo pacman -Rs alg-qogir-theme --noconfirm
+    sudo pacman -Rs alg-qogir-icons --noconfirm
+    sudo pacman -Rs alg-fastfetch-config --noconfirm
+    sudo pacman -Rs grml-zsh-config --noconfirm
+
 installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 cd $installed_dir/Personal/settings/arco/
 
