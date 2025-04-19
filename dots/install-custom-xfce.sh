@@ -89,8 +89,6 @@ read dock
 case $dock in
 1)
 sudo pacman -S --noconfirm plank plank-themes-git ;; 
-2)
-do nothing;;
 
   
 *)
