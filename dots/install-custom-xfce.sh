@@ -90,7 +90,7 @@ case $dock in
 1)
 sudo pacman -S --noconfirm plank plank-themes-git  custom-xfce4;; 
 2)
-sudo pacman -S --noconfirm  custom-xfce-without-dock;;
+sudo pacman -S --noconfirm  ar-xfce4;;
 
   
 *)
