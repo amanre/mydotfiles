@@ -114,6 +114,8 @@ pywal-conky-git
 python-pywal
 yad
 dracular-icons
+brave-bin
+firefox
 win11-icons-git
 root-git
 tokyonight-icons
