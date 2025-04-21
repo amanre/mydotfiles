@@ -101,6 +101,7 @@ PKGS=(
 
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 xfce-theme-manager
+custom-xfce4
 #pamac-aur
 grub-customizer
 multicolor-sddm-theme
@@ -164,6 +165,7 @@ font-manager
 fastfetch
 galculator
 gparted
+xfce4-panel-profiles
 
 # Gh0st-Repo
 #gh0stzk-curser-qogirr
