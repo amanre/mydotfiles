@@ -102,9 +102,8 @@ PKGS=(
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 xfce-theme-manager
 #pamac-aur
-#grub-customizer
-#multicolor-sddm-theme
-#blueberry
+grub-customizer
+multicolor-sddm-theme
 thumbler
 catppuccin-icons
 conky-lua-archers

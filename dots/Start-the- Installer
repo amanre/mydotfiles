@@ -51,7 +51,7 @@ echo
 sleep 2
 #sh get-the-keys-and-repos.sh*
 sh remove-software.sh*
-#sh install-custom-xfce.sh*
+sh install-custom-xfce.sh*
 sh install-bspwm.sh*
 sh install-bluetooth.sh*
 sh install-rofi.sh*
