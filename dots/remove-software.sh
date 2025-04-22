@@ -89,7 +89,6 @@ fi
   tput sgr0
   echo
 
-fi
 
 
 echo
