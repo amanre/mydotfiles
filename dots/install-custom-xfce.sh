@@ -232,7 +232,7 @@ system-config-printer
 #samsung-unified-driver-scanner
 canon-pixma-ts5055-complete
 # Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-simplescreenrecorder
+#simplescreenrecorder
 obs
 gimp
 gpick
