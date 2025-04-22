@@ -101,6 +101,7 @@ PKGS=(
 
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 am-theme-manager
+betterlockscreen
 custom-xfce4
 #pamac-aur
 grub-customizer
@@ -137,7 +138,6 @@ icon-themes-git
 archlinux-logout-git
 #archlinux-tweak-tool-git
 #archlinux-logout-themes-git
-betterlockscreen
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
