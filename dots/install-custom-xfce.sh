@@ -100,7 +100,7 @@ esac
 PKGS=(
 
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-xfce-theme-manager
+am-theme-manager
 custom-xfce4
 #pamac-aur
 grub-customizer
@@ -267,7 +267,6 @@ xfce4-mpc-plugin
 ttf-meslo-nerd-font-powerlevel10k
 kshutdown
 xscreensaver
-imagewriter
 xorg-xsetroot
 flameshot
 gnome-screenshot
