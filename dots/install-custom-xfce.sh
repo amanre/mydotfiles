@@ -102,7 +102,7 @@ PKGS=(
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 am-theme-manager
 betterlockscreen
-xdg-user-dirs
+xdg-user-dirs-gtk
 custom-xfce4
 #pamac-aur
 grub-customizer
