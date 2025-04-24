@@ -267,7 +267,7 @@ dunst
 feh
 gnome-disk-utility
 htop
-#imagewriter
+imagewriter
 mintstick-git
 neofetch
 qbittorrent
