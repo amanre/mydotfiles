@@ -123,6 +123,12 @@ tela-icons
 paru-git
 yay-git
 arandr
+noto-fonts
+polkit-gnome
+thunar
+thunar-archive-plugin
+thunar-volman
+ttf-hack
 xrandr
 grub-themes
 catppuccin-gtk-theme-mocha
