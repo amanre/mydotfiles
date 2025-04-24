@@ -102,6 +102,7 @@ PKGS=(
 am-theme-manager
 betterlockscreen
 xdg-user-dirs-gtk
+environment-git
 custom-xfce4
 pamac-aur
 chaotic-keyring
