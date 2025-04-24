@@ -6,4 +6,4 @@ echo '
 SigLevel = Required DatabaseOptional
 Include = /etc/pacman.d/chaotic-mirrorlist' | sudo tee --append /etc/pacman.conf
 
-sudp pacman -Sy
+sudo pacman -Sy

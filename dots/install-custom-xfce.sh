@@ -27,7 +27,7 @@ if grep -q amanre_repo /etc/pacman.conf; then
   echo
   tput setaf 2
   echo "################################################################"
-  echo "################ amoslinux repos are already in /etc/pacman.conf"
+  echo "################ amanre repos are already in /etc/pacman.conf"
   echo "################################################################"
   tput sgr0
   echo
