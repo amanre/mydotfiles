@@ -39,6 +39,7 @@ if grep -q amanre_repo /etc/pacman.conf; then
   echo "################################################################"
   tput sgr0
   echo
+
   sh repo/get-amanre-repo.sh
   sudo pacman -Sy
 

@@ -49,7 +49,6 @@ echo "################################################################"
 tput sgr0
 echo
 sleep 2
-#sh get-the-keys-and-repos.sh*
 sh remove-software.sh*
 sh install-custom-xfce.sh*
 sh install-bspwm.sh*
@@ -86,6 +85,7 @@ sh 9-fix-sublime-text-icons*
 sh 10-fix-telegram*
 sh 11-autostart-applications*
 sh display-manager.sh*
+sh install-chaotic-repo*
 #sh delete-all-desktop-themes.sh*
 #sh install-all-desktop-themes.sh*
 #sh snapper-btrfs-setup*

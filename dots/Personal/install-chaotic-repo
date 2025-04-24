@@ -1,0 +1,9 @@
+#!/bin/bash
+#set -e
+
+echo '
+[chaotic-aur]
+SigLevel = Required DatabaseOptional
+Include = /etc/pacman.d/chaotic-mirrorlist' | sudo tee --append /etc/pacman.conf
+
+sudp pacman -Sy
