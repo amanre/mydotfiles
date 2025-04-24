@@ -287,6 +287,7 @@ grandcanion-xfce-theme
 pinkfloyed-xfce-theme
 sunset-drive-xfce-theme
 sunset-lookout-xfce-theme
+sunset-xfce-theme
 cutecat-xfce-theme
 marta-xfce-theme
 mountainsunset-xfce-theme
