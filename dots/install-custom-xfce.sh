@@ -94,7 +94,17 @@ sudo pacman -S --noconfirm plank plank-themes-git ;;
 *)
  
 esac
+# Installing chaotic-aur keys and mirrors
+pkg_dir="packages"
 
+# Ensure directory exists
+if [[ ! -d "$pkg_dir" ]]; then
+    echo "Directory not found: $pkg_dir"
+    exit 1
+fi
+
+# Install all local packages using pacman
+find "$pkg_dir" -maxdepth 1 -name '*.pkg.tar.zst' -print0 | sudo xargs -0 pacman -U --noconfirm
 
 
 PKGS=(
