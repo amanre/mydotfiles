@@ -104,7 +104,7 @@ am-theme-manager
 betterlockscreen
 xdg-user-dirs-gtk
 custom-xfce4
-#pamac-aur
+pamac-aur
 grub-customizer
 multicolor-sddm-theme
 thumbler
@@ -166,13 +166,20 @@ geany-plugins
 pragha
 mpv
 meld
+gzip
+p7zip
+unace
+unrar
+unzip
 soundconverter
+ kvantum-qt5
 file-roller
 font-manager
 fastfetch
 galculator
 gparted
 xfce4-panel-profiles
+xorg-xkill
 
 # Gh0st-Repo
 #gh0stzk-curser-qogirr
