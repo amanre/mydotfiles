@@ -94,7 +94,7 @@ sudo pacman -S --noconfirm plank plank-themes-git ;;
   
 *)
  
-
+esac
 
 PKGS=(
 
