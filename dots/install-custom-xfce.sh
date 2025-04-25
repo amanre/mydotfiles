@@ -103,7 +103,7 @@ am-theme-manager
 betterlockscreen
 xdg-user-dirs-gtk
 environment-git
-custom-xfce4
+amanre-xfce
 pamac-aur
 chaotic-keyring
 chaotic-mirrorlist
@@ -125,6 +125,19 @@ tela-icons
 paru-git
 yay-git
 arandr
+pipewire
+wireplumber
+pipewire-alsa
+pipewire-pulse
+pipewire-jack
+pulsemixer
+pavucontrol
+gst-plugin-pipe
+virtualbox-guest-utils
+qemu-guest-agent
+open-vm-tools
+xf86-input-vmmouse
+xf86-video-vmware
 noto-fonts
 polkit-gnome
 thunar
@@ -182,6 +195,63 @@ galculator
 gparted
 xfce4-panel-profiles
 xorg-xkill
+
+## Video
+libde265
+libdv
+libmpeg2
+schroedinger
+libtheora
+libvpx
+x264
+x265
+xvidcore
+gstreamer
+ffmpeg
+gst-libav
+gst-plugins-good
+gst-plugins-ugly
+gst-plugins-bad
+
+## Multimedia
+ffmpeg
+ffmpegthumbnailer
+tumbler
+
+## Images
+jasper
+libwebp
+libavif
+libheif
+
+## Files
+gvfs
+gvfs-mtp
+gvfs-afc
+gvfs-gphoto2
+gvfs-smb
+gvfs-google
+highlight
+trash-cli
+ueberzug
+xdg-user-dirs
+xdg-user-dirs-gtk
+
+## Archives
+bzip2
+gzip
+lrzip
+lz4
+lzip
+lzop
+xz
+zstd
+p7zip
+zip
+unzip
+unrar
+unarchiver
+xarchiver
 
 # Gh0st-Repo
 #gh0stzk-curser-qogirr
