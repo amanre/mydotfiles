@@ -99,7 +99,7 @@ esac
 PKGS=(
 
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-am-theme-manager
+xfce-theme-manager
 betterlockscreen
 xdg-user-dirs-gtk
 environment-git
@@ -145,7 +145,7 @@ thunar-archive-plugin
 thunar-volman
 ttf-hack
 xrandr
-grub-themes
+#grub-themes
 catppuccin-gtk-theme-mocha
 catppuccin-gtk-theme-macchiato
 catppuccin-gtk-theme-frappe
@@ -157,7 +157,7 @@ catppuccin-cursors-mocha
 thunderbird
 gtk-themes-git
 icon-themes-git
-archlinux-logout-git
+#archlinux-logout-git
 #archlinux-tweak-tool-git
 #archlinux-logout-themes-git
 ttf-bitstream-vera
@@ -175,9 +175,9 @@ sublime-text-4
 geany
 geany-plugins
 #visual-studio-code-bin
-#spotify
-#spotify-adblock-git
-#spotrec
+spotify
+spotify-adblock-git
+spotrec
 pragha
 mpv
 meld
@@ -194,7 +194,7 @@ fastfetch
 galculator
 gparted
 xfce4-panel-profiles
-xorg-xkill
+#xorg-xkill
 
 ## Video
 libde265
@@ -267,8 +267,8 @@ gh0stzk-icons-gruvbox-plus-dark
 #gh0stzk-icons-sweet-rainbow
 #gh0stzk-icons-tokyo-night
 #gh0stzk-icons-vimix-white
-#gh0stzk-icons-zafiro
-#gh0stzk-icons-zafiro-purple
+gh0stzk-icons-zafiro
+gh0stzk-icons-zafiro-purple
 
 
 
@@ -293,7 +293,7 @@ gh0stzk-icons-gruvbox-plus-dark
 
 # Internet ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #discord
-#telegram-desktop
+telegram-desktop
 #skypeforlinux-stable-bin
 
 # Kernels ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -306,16 +306,16 @@ gh0stzk-icons-gruvbox-plus-dark
  #nvidia-settings
 
 # Printer related +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-cups
-cups-pdf
-ghostscript
-gutenprint
-gtk3-print-backends
-libcups
+#cups
+#cups-pdf
+#ghostscript
+#gutenprint
+#gtk3-print-backends
+##ibcups
 system-config-printer
-#samsung-unified-driver-common
-#samsung-unified-driver-printer
-#samsung-unified-driver-scanner
+samsung-unified-driver-common
+samsung-unified-driver-printer
+samsung-unified-driver-scanner
 canon-pixma-ts5055-complete
 # Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #simplescreenrecorder
@@ -339,10 +339,10 @@ gnome-disk-utility
 htop
 imagewriter
 mintstick-git
-neofetch
+#neofetch
 qbittorrent
 vlc
-xorg-kill
+#xorg-kill
 zsh
 zsh-completions
 zsh-syntax-highlighting
@@ -356,26 +356,13 @@ xscreensaver
 xorg-xsetroot
 flameshot
 gnome-screenshot
-arcolinux-kvantum-git
+#arcolinux-kvantum-git
 
 # Office ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 libreoffice-fresh
 
-# Themes
-emilia-xfce-theme
-expanse-xfce-theme
-default-xfce-theme
-space-nebula-theme
-spectre-xfce-theme
-les-paul-xfce-theme
-grandcanion-xfce-theme
-pinkfloyed-xfce-theme
-sunset-drive-xfce-theme
-sunset-lookout-xfce-theme
-sunset-xfce-theme
-cutecat-xfce-theme
-marta-xfce-theme
-mountainsunset-xfce-theme
+#  Desktop Themes
+xfce-themes-git
 )
 
 for PKG in "${PKGS[@]}"; do

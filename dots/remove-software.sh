@@ -64,8 +64,19 @@ if grep -q "archlinux" /etc/os-release; then
   echo "######################################################"
   tput sgr0
   echo
+  if [ -f /etc/skel/.config/rofi/config.rasi ]; then
+    sudo rm -v /etc/skel/.config/rofi/config.rasi
+  fi   
+  
 
-  echo "Nothing to remove"
+  sudo pacman -R --noconfirm kiro-rofi
+  sudo pacman -R --noconfirm kiro-xfce
+  sudo pacman -R --noconfirm variety
+  sudo pacman -R --noconfirm kiro-variety-config
+  sudo pacman -R --noconfirm kiro-bash-config
+  sudo pacman -R --noconfirm kiro-rofi-themes
+  sudo pacman -R --noconfirm kiro-zsh-config
+  sudo pacman -R --noconfirm kiro-plank
 
   echo
   tput setaf 2
@@ -76,39 +87,6 @@ if grep -q "archlinux" /etc/os-release; then
   echo
 
 fi
-
-# when on EOS - remove conflicting files
-
-if grep -q "EndeavourOS" /etc/os-release; then
-
-  echo
-  tput setaf 3
-  echo "##############################################################"
-  echo "############### Removing software for EOS"
-  echo "##############################################################"
-  tput sgr0
-  echo
-  if [ -f /etc/skel/.config/rofi/config.rasi ]; then
-    sudo rm -v /etc/skel/.config/rofi/config.rasi
-  fi   
-
-  sudo systemctl disable firewalld
-  sudo pacman -R --noconfirm firewalld
-  sudo pacman -R --noconfirm eos-settings-xfce4
-  sudo pacman -R --noconfirm arc-gtk-theme-eos
-  sudo pacman -R --noconfirm endeavouros-xfce4-terminal-colors
-  sudo pacman -R --noconfirm yay
-
-  echo
-  tput setaf 3
-  echo "##############################################################"
-  echo "################### Software removed"
-  echo "##############################################################"
-  tput sgr0
-  echo
-  
-fi
-
 
 
   tput setaf 2
