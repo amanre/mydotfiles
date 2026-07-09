@@ -52,14 +52,14 @@ sleep 2
 sh remove-software.sh*
 sh install-custom-xfce.sh*
 sh install-bspwm.sh*
-sh install-bluetooth.sh*
+#sh install-bluetooth.sh*
 sh install-rofi.sh*
-sh install-xenlism-grub-arch-1080p.sh*
-sh software-AUR-repo*
+#sh install-xenlism-grub-arch-1080p.sh*
+#sh software-AUR-repo*
 sh mpd-ncmpcpp*
-sh zram.sh*
-sh fstrim.sh*
-sh printers.sh*
+#sh zram.sh*
+#sh fstrim.sh*
+#sh printers.sh*
 
 
 
@@ -76,7 +76,7 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 cd $installed_dir/Personal
 sh 1-change-packer-name*
 #sh 2-make-chroot-enviroment*
-sh 3-change-compression-settings*
+#sh 3-change-compression-settings*
 sh 4-install-personal-settings-folders*
 sh 5-install-personal-settings-bookmarks*
 #sh 6-firefox-fix-unreadable-text-for-dark-themes-settings.sh*
