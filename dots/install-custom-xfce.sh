@@ -171,7 +171,7 @@ ttf-roboto-mono
 ttf-ubuntu-font-family
 adobe-source-sans-fonts
 gsfonts
-sublime-text-4
+#sublime-text-4
 geany
 geany-plugins
 #visual-studio-code-bin
@@ -180,7 +180,7 @@ spotify-adblock-git
 spotrec
 pragha
 mpv
-meld
+#meld
 gzip
 p7zip
 unace
@@ -339,10 +339,8 @@ gnome-disk-utility
 htop
 imagewriter
 mintstick-git
-#neofetch
 qbittorrent
 vlc
-#xorg-kill
 zsh
 zsh-completions
 zsh-syntax-highlighting
@@ -356,7 +354,7 @@ xscreensaver
 xorg-xsetroot
 flameshot
 gnome-screenshot
-#arcolinux-kvantum-git
+
 
 # Office ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 libreoffice-fresh
