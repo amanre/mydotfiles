@@ -61,8 +61,8 @@ if grep -q "archlinux" /etc/os-release; then
   sudo pacman -R --noconfirm kiro-plank
   sudo pacman -R --noconfirm kiro-dot-files
   sudo pacman -R --noconfirm kiro-shells
-  sudo pacman -R --noconfirm kiro-powermenue
-  sudo pacman -R --noconfirm
+  sudo pacman -R --noconfirm kiro-powermenu
+  sudo pacman -R --noconfirm kiro-zsh-config
   sudo pacman -R --noconfirm
   sudo pacman -R --noconfirm
   sudo pacman -R --noconfirm
