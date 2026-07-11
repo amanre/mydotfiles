@@ -52,208 +52,31 @@ if ! command -v yay > /dev/null; then
 
 fi
 
-echo "
-#=================================
-#=     Which Monitor Setup       =
-#=================================
-
-1) Single
-2) Dual
-Defaults to Single if you choose
-something else
-
-"
-
-read Monitor
-case $Monitor in
-1)
-  sudo pacman -S --noconfirm singlescreen;;
-2)
-  sudo pacman -S --noconfirm dualscreen;;
-*)
- sudo pacman -S --noconfirm singlescreen;;
-esac
-
-
-echo "
-#=================================
-#=     Do you want a dock ?      =
-#=================================
-
-1) yes
-2) no
-
-
-"
-
-read dock
-case $dock in
-1)
-sudo pacman -S --noconfirm plank plank-themes-git ;; 
-
-  
-*)
- 
 esac
 
 PKGS=(
 
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 xfce-theme-manager
-betterlockscreen
-xdg-user-dirs-gtk
-environment-git
+xfce-themes-git
 amanre-xfce
-pamac-aur
-chaotic-keyring
-chaotic-mirrorlist
-grub-customizer
-multicolor-sddm-theme
-thumbler
-catppuccin-icons
-conky-lua-archers
-pywal-conky-git
-python-pywal
-yad
-dracular-icons
-brave-bin
-firefox
-win11-icons-git
-root-git
-tokyonight-icons
-tela-icons
-paru-git
-yay-git
-arandr
-pipewire
-wireplumber
-pipewire-alsa
-pipewire-pulse
-pipewire-jack
-pulsemixer
-pavucontrol
-gst-plugin-pipe
-virtualbox-guest-utils
-qemu-guest-agent
-open-vm-tools
-xf86-input-vmmouse
-xf86-video-vmware
-noto-fonts
-polkit-gnome
-thunar
-thunar-archive-plugin
-thunar-volman
-ttf-hack
-xrandr
-#grub-themes
-catppuccin-gtk-theme-mocha
-catppuccin-gtk-theme-macchiato
-catppuccin-gtk-theme-frappe
-catppuccin-gtk-theme-latte
-catppuccin-cursors-latte
+amanre-gtk-themes
+amanre-icon-themes
+bspwm-config
+bspwm-patched
 catppuccin-cursors-frappe
+catppuccin-cursors-latte
 catppuccin-cursors-macchiato
 catppuccin-cursors-mocha
-thunderbird
-gtk-themes-git
-icon-themes-git
-#archlinux-logout-git
-#archlinux-tweak-tool-git
-#archlinux-logout-themes-git
-ttf-bitstream-vera
-ttf-dejavu
-ttf-droid
-ttf-hack
-ttf-inconsolata
-ttf-liberation
-ttf-roboto
-ttf-roboto-mono
-ttf-ubuntu-font-family
-adobe-source-sans-fonts
-gsfonts
-#sublime-text-4
-geany
-geany-plugins
-#visual-studio-code-bin
-spotify
-spotify-adblock-git
-spotrec
-pragha
-mpv
-#meld
-gzip
-p7zip
-unace
-unrar
-unzip
-soundconverter
- kvantum-qt5
-file-roller
-font-manager
-fastfetch
-galculator
-gparted
-xfce4-panel-profiles
-#xorg-xkill
+conky-lua-archers
+dracular-icons
+plank-themes-git
+pywal-conky-git
+root-git
+ttf-meslo-nerd-font-powerlevel10k
+zsh-theme-powerlevel10k-git
 
-## Video
-libde265
-libdv
-libmpeg2
-schroedinger
-libtheora
-libvpx
-x264
-x265
-xvidcore
-gstreamer
-ffmpeg
-gst-libav
-gst-plugins-good
-gst-plugins-ugly
-gst-plugins-bad
-
-## Multimedia
-ffmpeg
-ffmpegthumbnailer
-tumbler
-
-## Images
-jasper
-libwebp
-libavif
-libheif
-
-## Files
-gvfs
-gvfs-mtp
-gvfs-afc
-gvfs-gphoto2
-gvfs-smb
-gvfs-google
-highlight
-trash-cli
-ueberzug
-xdg-user-dirs
-xdg-user-dirs-gtk
-
-## Archives
-bzip2
-gzip
-lrzip
-lz4
-lzip
-lzop
-xz
-zstd
-p7zip
-zip
-unzip
-unrar
-unarchiver
-xarchiver
-
-# Gh0st-Repo
+# Gh0st-Repo +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #gh0stzk-curser-qogirr
 gh0stzk-gtk-themes
 #gh0stzk-icons-beautyline
@@ -291,19 +114,6 @@ gh0stzk-icons-zafiro-purple
 #playonlinux
 
 
-# Internet ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#discord
-telegram-desktop
-#skypeforlinux-stable-bin
-
-# Kernels ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#linux-zen
-#linux-zen-headers
-
-# Nvidia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- #nvidia-dkms
- #lib32-nvidia
- #nvidia-settings
 
 # Printer related +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #cups
@@ -318,7 +128,7 @@ samsung-unified-driver-printer
 samsung-unified-driver-scanner
 canon-pixma-ts5055-complete
 # Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#simplescreenrecorder
+simplescreenrecorder
 obs
 gimp
 gpick
@@ -356,11 +166,6 @@ flameshot
 gnome-screenshot
 
 
-# Office ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-libreoffice-fresh
-
-#  Desktop Themes
-xfce-themes-git
 )
 
 for PKG in "${PKGS[@]}"; do

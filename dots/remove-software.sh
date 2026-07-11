@@ -71,17 +71,11 @@ if grep -q "archlinux" /etc/os-release; then
 
   sudo pacman -R --noconfirm kiro-rofi
   sudo pacman -R --noconfirm kiro-xfce
-  sudo pacman -R --noconfirm variety
-  sudo pacman -R --noconfirm kiro-variety-config
   sudo pacman -R --noconfirm kiro-bash-config
   sudo pacman -R --noconfirm kiro-rofi-themes
   sudo pacman -R --noconfirm kiro-zsh-config
   sudo pacman -R --noconfirm kiro-plank
-  sudo pacman -R --noconfirm kiro-arc-dawn
   sudo pacman -R --noconfirm kiro-dot-files
-  sudo pacman -R --noconfirm kiro-ohmychadwm-hook
-  sudo pacman -R --noconfirm kiro-polybar
-  sudo pacman -R --noconfirm ohmychadwm
   sudo pacman -R --noconfirm
   sudo pacman -R --noconfirm
   sudo pacman -R --noconfirm
