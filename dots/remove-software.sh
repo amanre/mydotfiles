@@ -31,28 +31,12 @@ echo "######################################################"
 tput sgr0
 echo
 
-sudo pacman -Rs broadcom-wl-dkms --noconfirm
-sudo pacman -Rs rtl8821cu-morrownr-dkms-git --noconfirm
-sudo pacman -Rs --noconfirm archinstall
-sudo pacman -Rs lftp --noconfirm
-sudo pacman -Rs xf86-video-amdgpu --noconfirm
-sudo pacman -Rs xf86-video-fbdev --noconfirm
-sudo pacman -Rs xf86-video-openchrome --noconfirm
-if pacman -Qi xf86-video-vmware &> /dev/null; then
-  sudo pacman -Rs xf86-video-vmware --noconfirm
-fi
-sudo pacman -Rs xf86-video-ati --noconfirm
-sudo pacman -Rs xf86-video-nouveau --noconfirm
-sudo pacman -Rs xf86-video-vesa --noconfirm
-sudo pacman -Rs --noconfirm xfce4-artwork
-sudo rm -rf /usr/share/backgrounds/xfce
-
 sudo pacman -Rs --noconfirm adobe-source-han-sans-cn-fonts
 sudo pacman -Rs --noconfirm adobe-source-han-sans-jp-fonts
 sudo pacman -Rs --noconfirm adobe-source-han-sans-kr-fonts
 sudo pacman -Rs --noconfirm vim vim-runtime
 sudo pacman -Rs --noconfirm xfce4-screensaver
-sudo  rm /etc/environment
+
 
 # when on Arch Linux - remove conflicting files
 if grep -q "archlinux" /etc/os-release; then
@@ -76,7 +60,7 @@ if grep -q "archlinux" /etc/os-release; then
   sudo pacman -R --noconfirm kiro-zsh-config
   sudo pacman -R --noconfirm kiro-plank
   sudo pacman -R --noconfirm kiro-dot-files
-  sudo pacman -R --noconfirm
+  sudo pacman -R --noconfirm kiro-shells
   sudo pacman -R --noconfirm
   sudo pacman -R --noconfirm
   sudo pacman -R --noconfirm

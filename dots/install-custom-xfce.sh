@@ -52,7 +52,7 @@ if ! command -v yay > /dev/null; then
 
 fi
 
-esac
+
 
 PKGS=(
 
@@ -71,6 +71,7 @@ catppuccin-cursors-mocha
 conky-lua-archers
 dracular-icons
 plank-themes-git
+plank
 pywal-conky-git
 root-git
 ttf-meslo-nerd-font-powerlevel10k
@@ -115,56 +116,23 @@ gh0stzk-icons-zafiro-purple
 
 
 
-# Printer related +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#cups
-#cups-pdf
-#ghostscript
-#gutenprint
-#gtk3-print-backends
-##ibcups
-system-config-printer
+# Printer Driver +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 samsung-unified-driver-common
 samsung-unified-driver-printer
 samsung-unified-driver-scanner
 canon-pixma-ts5055-complete
-# Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-simplescreenrecorder
-obs
-gimp
-gpick
-cava
-inkscape
-simple-scan
-guvcview
 
 # Utils +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 archiso
 dmenu
-downgrade
-duf
 dunst
 feh
 gnome-disk-utility
-htop
 imagewriter
-mintstick-git
-qbittorrent
-vlc
-zsh
-zsh-completions
-zsh-syntax-highlighting
-zsh-autosuggestions
-zsh-theme-powerlevel10k-git
-sane
 xfce4-mpc-plugin
 ttf-meslo-nerd-font-powerlevel10k
 kshutdown
-xscreensaver
-xorg-xsetroot
-flameshot
-gnome-screenshot
-
 
 )
 
