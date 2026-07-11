@@ -48,7 +48,7 @@ bspwm-patched
 awesome-terminal-fonts
 #conky-lua-archers-git
 sutils-git
-lxappearance-gtk3
+lxappearance
 picom
 polybar
 sxhkd

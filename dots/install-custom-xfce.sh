@@ -22,12 +22,12 @@ echo "################################################################"
 tput sgr0
 echo
 
-if grep -q amanre_repo /etc/pacman.conf; then
+if grep -q custom-repo /etc/pacman.conf; then
 
   echo
   tput setaf 2
   echo "################################################################"
-  echo "################ amanre repos are already in /etc/pacman.conf"
+  echo "################  repos are already in /etc/pacman.conf"
   echo "################################################################"
   tput sgr0
   echo
@@ -40,7 +40,7 @@ if grep -q amanre_repo /etc/pacman.conf; then
   tput sgr0
   echo
 
-  sh repo/get-amanre-repo.sh
+  sh repo/get-repo.sh
   sudo pacman -Sy
 
 
