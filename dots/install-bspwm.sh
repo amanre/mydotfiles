@@ -44,15 +44,15 @@ echo
 
 PKGS=(
 bspwm-patched
-#bspwm-config-git
+bspwm-config-git
 awesome-terminal-fonts
-#conky-lua-archers-git
+conky-lua-archers-git
 sutils-git
 lxappearance
 picom
 polybar
 sxhkd
-xtitle-git
+xtitle
 trizen
 jgmenu
 rofi
