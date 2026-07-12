@@ -72,6 +72,7 @@ conky-lua-archers
 dracular-icons
 plank-themes-git
 plank
+tela-icons
 pywal-conky-git
 root-git
 ttf-meslo-nerd-font-powerlevel10k
