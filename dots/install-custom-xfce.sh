@@ -62,7 +62,7 @@ xfce-themes-git
 amanre-xfce
 amanre-gtk-themes
 amanre-icon-themes
-bspwm-config
+bspwm-config-git
 bspwm-patched
 catppuccin-cursors-frappe
 catppuccin-cursors-latte
@@ -86,11 +86,11 @@ gh0stzk-gtk-themes
 #gh0stzk-icons-dracula
 #gh0stzk-icons-glassy
 gh0stzk-icons-gruvbox-plus-dark
-#gh0stzk-icons-hack
-#gh0stzk-icons-luv
-#gh0stzk-icons-sweet-rainbow
-#gh0stzk-icons-tokyo-night
-#gh0stzk-icons-vimix-white
+gh0stzk-icons-hack
+gh0stzk-icons-luv
+gh0stzk-icons-sweet-rainbow
+gh0stzk-icons-tokyo-night
+gh0stzk-icons-vimix-white
 gh0stzk-icons-zafiro
 gh0stzk-icons-zafiro-purple
 
